@@ -3,7 +3,10 @@ title: Client-side errors
 pcx_content_type: troubleshooting
 description: Resolve client-side errors in Turnstile widget rendering.
 products:
-  - turnstile
+  - turnstile.render(...,{
+callback:function (token) { ...
+}.
+};
 tags:
   - Debugging
   - JavaScript
